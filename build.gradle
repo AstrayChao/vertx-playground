@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+    id "io.freefair.lombok" version "6.6"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("io.vertx:vertx-core:4.4.1")
+    implementation("ch.qos.logback:logback-classic:1.4.5")
+}
